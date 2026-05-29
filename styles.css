@@ -288,43 +288,54 @@ h1,h2,h3,h4{ font-family:'Poppins', sans-serif; color: var(--ink); margin:0; let
   background-position: center;
 }
 
+/* All photo IDs below were HTTP-verified (200 OK on images.unsplash.com)
+   and individually checked for subject relevance. */
+
+/* SERVICES */
 .p-foam{
+  /* Wash & Wax — boat being actively worked on, soaped/sprayed */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1685720543561-6eb5ebd7c5f6?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #2c5784 0%, #0a1828 100%);
 }
 .p-attic{
+  /* Teak Restoration — wooden boat deck with rope, hardware, wheel */
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1520637836862-4d197d17c986?auto=format&fit=crop&w=900&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.30), rgba(10,24,40,.50)),
+    url('https://images.unsplash.com/photo-1742293767364-03237bb45c63?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #c89a5f 0%, #2a1c10 100%);
 }
 .p-cellulose{
+  /* Ceramic Coating — gleaming white yacht docked */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1512602110-67198e50f815?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #1a4a6e 0%, #06192c 100%);
 }
 .p-removal{
+  /* Hull / Bottom Cleaning — man working on hull in dry dock */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1708023987502-476c3db22373?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #355a7a 0%, #0a1828 100%);
 }
 .p-sound{
+  /* Interior Detailing — sailboat cabin interior with natural light */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1769655991158-094971dd1404?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #4a6e92 0%, #0d1f30 100%);
 }
 .p-commercial{
+  /* Charter & Fleet — Port Vauban marina with multiple yachts */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.35), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1494224340009-4c45f0b89e57?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1595973641416-35ae8a6eb1d3?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #2a4a6a 0%, #0a1828 100%);
 }
 
+/* PROJECTS */
 .p-proj1{
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.30), rgba(10,24,40,.55)),
@@ -350,37 +361,40 @@ h1,h2,h3,h4{ font-family:'Poppins', sans-serif; color: var(--ink); margin:0; let
     linear-gradient(135deg, #4a6e92 0%, #0d1f30 100%);
 }
 
+/* PROCESS STEPS — reuse verified yacht photos, darker overlay so the
+   gold numeric badge (01..05) stays the focal point. */
 .p-step1{
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.50), rgba(10,24,40,.70)),
-    url('https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&w=700&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.55), rgba(10,24,40,.75)),
+    url('https://images.unsplash.com/photo-1595973641416-35ae8a6eb1d3?auto=format&fit=crop&w=700&q=70'),
     linear-gradient(135deg, #2c5784 0%, #0a1828 100%);
 }
 .p-step2{
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.50), rgba(10,24,40,.70)),
-    url('https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&w=700&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.55), rgba(10,24,40,.75)),
+    url('https://images.unsplash.com/photo-1512602110-67198e50f815?auto=format&fit=crop&w=700&q=70'),
     linear-gradient(135deg, #3a6a92 0%, #0d1f30 100%);
 }
 .p-step3{
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.50), rgba(10,24,40,.70)),
-    url('https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=700&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.55), rgba(10,24,40,.75)),
+    url('https://images.unsplash.com/photo-1685720543561-6eb5ebd7c5f6?auto=format&fit=crop&w=700&q=70'),
     linear-gradient(135deg, #d4af37 0%, #2a2010 100%);
 }
 .p-step4{
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.50), rgba(10,24,40,.70)),
-    url('https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=700&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.55), rgba(10,24,40,.75)),
+    url('https://images.unsplash.com/photo-1708023987502-476c3db22373?auto=format&fit=crop&w=700&q=70'),
     linear-gradient(135deg, #1f4a72 0%, #06192c 100%);
 }
 .p-step5{
   background-image:
-    linear-gradient(135deg, rgba(10,24,40,.50), rgba(10,24,40,.70)),
-    url('https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=700&q=70'),
+    linear-gradient(135deg, rgba(10,24,40,.55), rgba(10,24,40,.75)),
+    url('https://images.unsplash.com/photo-1500627964684-141351970a7f?auto=format&fit=crop&w=700&q=70'),
     linear-gradient(135deg, #2c5784 0%, #0a1828 100%);
 }
 
+/* ABOUT */
 .p-about{
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.25), rgba(10,24,40,.55)),
@@ -388,22 +402,26 @@ h1,h2,h3,h4{ font-family:'Poppins', sans-serif; color: var(--ink); margin:0; let
     linear-gradient(135deg, #3a6a92 0%, #0a1828 100%);
 }
 
+/* BLOG — pair each post with its topic */
 .p-blog1{
+  /* Ceramic vs carnauba — gleaming yacht */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.30), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1512602110-67198e50f815?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #2c5784 0%, #142c46 100%);
 }
 .p-blog2{
+  /* Teak restoration — wooden deck hardware */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.30), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1520637836862-4d197d17c986?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1742293767364-03237bb45c63?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #c89a5f 0%, #1a1410 100%);
 }
 .p-blog3{
+  /* Fouled bottom / dive clean — hull in dry dock */
   background-image:
     linear-gradient(135deg, rgba(10,24,40,.30), rgba(10,24,40,.55)),
-    url('https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=900&q=70'),
+    url('https://images.unsplash.com/photo-1708023987502-476c3db22373?auto=format&fit=crop&w=900&q=70'),
     linear-gradient(135deg, #1f4a72 0%, #06192c 100%);
 }
 
